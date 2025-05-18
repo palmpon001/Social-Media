@@ -27,6 +27,8 @@ Users can like individual posts.
 ## 🔓 Logout
 Users can log out and return to the login screen.
 
+---
+
 <div align="center">
   <img src="https://i.postimg.cc/dQpd1xhP/Whats-App-Image-2025-05-18-at-16-50-46.jpg" alt="Demo Image" style="width: 200px; height: auto;" />
   <img src="https://i.postimg.cc/15VTTXnx/Whats-App-Image-2025-05-18-at-16-50-46-1.jpg" alt="Demo Image" style="width: 200px; height: auto;" />
@@ -45,7 +47,7 @@ Follow these detailed steps to run this application on your emulator or physical
 
 ```bash
 git clone https://github.com/ShaquilleNathan/Social-Media.git
-cd SocialMedia
+cd your-project-name
 ```
 
 ### 2. Install dependencies
@@ -78,6 +80,15 @@ For iOS (only on macOS with Xcode installed):
 ```bash
 npx react-native run-ios
 ```
+
+### ✅ Optional: Creating New Project (for fresh setup)
+If you're starting from scratch, you can initialize a new project with this command:
+```bash
+npx react-native@(your react-native version) init (your project name) --version (your react-native version)
+```
+Then follow steps 2-4 above.
+
+---
 
 ## 📌 Notes
 - This app is built entirely with JavaScript, using React Native and Realm for local database storage.
