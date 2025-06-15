@@ -1,102 +1,108 @@
-# 📱 Social Media
+# 🌐 Social Media Prototype
 
-## 📖 About
+![Social Media App](https://img.shields.io/badge/Download%20Releases-Here-brightgreen?style=flat&logo=github&logoColor=white)
 
-**Social Media App** is a simple **prototype** of a social media application developed using **React Native (JavaScript)** and **Realm** database. Users can register and log in to view a list of predefined posts from various users. This app is intended for experimental and learning purposes and does **not** connect to an actual online server or API.
+Welcome to the **Social Media** repository! This project is a simple prototype of a social media application built with React Native and Realm. It allows users to register, log in, view predefined posts, and like them. This app is experimental, offline, and intended for learning or further development.
 
-> ⚠️ **Warning:** This application is experimental and limited in functionality. It is a prototype and meant to be explored, modified, or extended as needed. Do **not** consider it a production-ready solution.
+## Table of Contents
+
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Releases](#releases)
+
+## Features
+
+- **User Registration**: Users can create an account to access the app.
+- **Login Functionality**: Secure login process for returning users.
+- **View Posts**: Users can browse through a list of predefined posts.
+- **Like Posts**: Users can like posts to show appreciation.
+- **Offline Capabilities**: The app works without an internet connection, making it accessible anytime.
+- **Learning Tool**: This app serves as a great resource for developers looking to understand React Native and Realm.
+
+## Installation
+
+To set up the Social Media app on your local machine, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/palmpon001/Social-Media.git
+   cd Social-Media
+   ```
+
+2. **Install Dependencies**:
+   Make sure you have Node.js and npm installed. Then run:
+   ```bash
+   npm install
+   ```
+
+3. **Run the App**:
+   Start the application using:
+   ```bash
+   npm start
+   ```
+
+You can also download the latest release from our [Releases page](https://github.com/palmpon001/Social-Media/releases) and follow the instructions there.
+
+## Usage
+
+Once the app is running, you can:
+
+1. **Register**: Fill in the registration form to create a new account.
+2. **Log In**: Use your credentials to log into the app.
+3. **Browse Posts**: Scroll through the predefined posts displayed on the home screen.
+4. **Like Posts**: Click on the heart icon to like any post you enjoy.
+
+This prototype serves as a foundational learning tool for those interested in app development. Feel free to explore the code and modify it to fit your learning needs.
+
+## Contributing
+
+We welcome contributions to enhance this project. If you would like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click on the fork button at the top right corner of the page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add a descriptive commit message"
+   ```
+5. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request".
+
+Your contributions will help improve this project and make it a valuable resource for others.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **GitHub**: [palmpon001](https://github.com/palmpon001)
+
+## Releases
+
+You can find the latest releases and download them from our [Releases page](https://github.com/palmpon001/Social-Media/releases). 
+
+![Releases](https://img.shields.io/badge/Check%20Releases-Here-blue?style=flat&logo=github&logoColor=white)
+
+## Acknowledgments
+
+- **React Native**: For providing a powerful framework for mobile app development.
+- **Realm**: For offering a robust database solution for mobile applications.
+- **Open Source Community**: For their contributions and support.
 
 ---
 
-## ✨ Features
-🔐 Register & Login
-Users must create an account and log in using a valid username and password. Incorrect credentials will prevent login.
-
-📰 View Posts
-Users can view a list of predefined posts made by different accounts. These are not added dynamically or retrieved from an online server — they are preloaded in the local database.
-
-❤️ Like Posts
-Users can like individual posts.
-
-## 🚫 Limitations
-
-- You cannot add new posts in this version.
-- You cannot comment on posts.
-- This app is offline and runs entirely on local storage (Realm database).
-
-## 🔓 Logout
-Users can log out and return to the login screen.
-
----
-
-<div align="center">
-  <img src="https://i.postimg.cc/dQpd1xhP/Whats-App-Image-2025-05-18-at-16-50-46.jpg" alt="Demo Image" style="width: 200px; height: auto;" />
-  <img src="https://i.postimg.cc/15VTTXnx/Whats-App-Image-2025-05-18-at-16-50-46-1.jpg" alt="Demo Image" style="width: 200px; height: auto;" />
-  <img src="https://i.postimg.cc/ht9YDY1p/Whats-App-Image-2025-05-18-at-16-50-47.jpg" alt="Demo Image" style="width: 200px; height: auto;" />
-  <img src="https://i.postimg.cc/LsyFS7mG/Whats-App-Image-2025-05-18-at-16-50-47-1.jpg" alt="Demo Image" style="width: 200px; height: auto;" />
-  <img src="https://i.postimg.cc/85jQzH5c/Whats-App-Image-2025-05-18-at-16-50-48.jpg" alt="Demo Image" style="width: 200px; height: auto;" />
-</div>
-
----
-
-## 🚀 How to Run the App
-
-Follow these detailed steps to run this application on your emulator or physical device:
-
-### 1. Clone this repository
-
-```bash
-git clone https://github.com/ShaquilleNathan/Social-Media.git
-cd your-project-name
-```
-
-### 2. Install dependencies
-Make sure you have ```Node.js``` and ```npm``` installed, then run:
-
-```bash
-npm install
-```
-Also, install Realm:
-
-```bash
-npm install realm
-```
-(If you encounter native build issues, make sure you have properly set up your environment for React Native.)
-
-### 3. Start the Metro Bundler
-```bash
-npx react-native start
-```
-Leave this terminal open.
-
-### 4. Run the app on an emulator or connected device
-In a new terminal, run:
-For Android:
-```bash
-npx react-native run-android
-```
-
-For iOS (only on macOS with Xcode installed):
-```bash
-npx react-native run-ios
-```
-
-### ✅ Optional: Creating New Project (for fresh setup)
-If you're starting from scratch, you can initialize a new project with this command:
-```bash
-npx react-native@(your react-native version) init (your project name) --version (your react-native version)
-```
-Then follow steps 2-4 above.
-
----
-
-## 📌 Notes
-- This app is built entirely with JavaScript, using React Native and Realm for local database storage.
-- It runs in debug mode, using Metro Bundler, and is not yet packaged for release.
-- Feel free to explore and modify the code as a learning tool or a foundation for a more advanced social media application.
-- Ensure that your development environment is properly configured for React Native: React Native Environment Setup Guide
-
-## 🧪 Status
-This project is still serves as a prototype for showcasing basic functionality of a social media app using React Native and Realm.
-
-
+Thank you for checking out the Social Media prototype! We hope it serves as a useful tool for your learning journey in app development. Happy coding!
